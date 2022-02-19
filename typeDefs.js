@@ -5,17 +5,14 @@ const typeDefs = gql`
         productId: String,
         name: String,
         price: Int,
+        success: Boolean
     }
 
     type Seller {
         sellerId: String,
         sellerName: String,
-        products: [Product]
-    }
-
-    type Query {
-        hello: String
-        getSellerInfo(sellerId: String): Seller
+        products: [Product],
+        success: Boolean
     }
 
     input sellerInput {
@@ -28,6 +25,11 @@ const typeDefs = gql`
         productId: String,
         name: String,
         price: Int,
+    }
+
+    type Query {
+        getSellerInfo(sellerId: String): Seller
+        getProductToSeller(product: productInput): Product
     }
 
     type Mutation {
