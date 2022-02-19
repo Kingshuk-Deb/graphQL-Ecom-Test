@@ -12,9 +12,9 @@
 - Get Product
 
 # DEMO VIDEO
-<a href="https://youtu.be/OXIlv8b5HyM" title="AdaKerja Assignment Video Demo">
+<a href="https://youtu.be/OXIlv8b5HyM" title="PlotLine GraphQL E-Com NodeJS/Mongo/Apollo">
   <p align="center">
-    <img width="100%" src="https://img.youtube.com/vi/OXIlv8b5HyM/maxresdefault.jpg" alt="AdaKerja Assignment Video Demo"/>
+    <img width="100%" src="./gifs/thumb.png" alt="PlotLine GraphQL E-Com NodeJS/Mongo/Apollo"/>
   </p>
 </a>
 
